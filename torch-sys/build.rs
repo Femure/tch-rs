@@ -474,7 +474,6 @@ fn main() -> anyhow::Result<()> {
             system_info.link("clog");
             system_info.link("cpuinfo");
             system_info.link("dnnl");
-            system_info.link("dnnl_graph");
             system_info.link("fbgemm");
             system_info.link("gloo");
             system_info.link("kineto");
